@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Правила падела: корт 20 на 10 метров">
+  <rect width="800" height="800" fill="#f8fafc"/>
+  <circle cx="400" cy="420" r="300" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="400" y="136" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="6" fill="#ca8a04">КОРТ ДЛЯ ПАДЕЛА</text>
+  <text x="400" y="204" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="2" fill="#0f172a">20 × 10 м</text>
+
+  <rect x="186" y="300" width="428" height="214" fill="#f8fafc" stroke="#0f172a" stroke-width="6"/>
+  <line x1="400" y1="300" x2="400" y2="514" stroke="#ca8a04" stroke-width="7" stroke-dasharray="10 8"/>
+  <line x1="250" y1="300" x2="250" y2="514" stroke="#0284c7" stroke-width="3"/>
+  <line x1="550" y1="300" x2="550" y2="514" stroke="#0284c7" stroke-width="3"/>
+  <line x1="250" y1="407" x2="550" y2="407" stroke="#0284c7" stroke-width="3"/>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">
+    <text x="400" y="286" text-anchor="middle">сетка</text>
+    <text x="250" y="540" text-anchor="middle">линия подачи</text>
+    <text x="400" y="545" text-anchor="middle" fill="#94a3b8">центр</text>
+  </g>
+
+  <circle cx="318" cy="352" r="15" fill="#facc15" stroke="#a16207" stroke-width="3"/>
+  <path d="M330 352h46" stroke="#ca8a04" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600" fill="#475569">
+    <path d="M186 570h428" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M186 562v16M614 562v16" stroke="#94a3b8" stroke-width="2"/>
+    <text x="400" y="602" text-anchor="middle">20 метров</text>
+    <path d="M650 300v214" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M642 300h16M642 514h16" stroke="#94a3b8" stroke-width="2"/>
+    <text x="672" y="414" startOffset="0">10 м</text>
+  </g>
+</svg>

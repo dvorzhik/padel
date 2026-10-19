@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Схема вибры: атакующий удар сверху с боковым вращением">
+  <rect width="800" height="560" fill="#f8fafc"/>
+  <circle cx="420" cy="290" r="240" fill="#ffffff" opacity="0.7"/>
+
+  <line x1="50" y1="470" x2="750" y2="470" stroke="#cbd5e1" stroke-width="4"/>
+  <line x1="50" y1="250" x2="50" y2="470" stroke="#0284c7" stroke-width="6" opacity="0.3"/>
+  <line x1="750" y1="250" x2="750" y2="470" stroke="#0284c7" stroke-width="6" opacity="0.3"/>
+  <line x1="400" y1="400" x2="400" y2="470" stroke="#94a3b8" stroke-width="5"/>
+  <line x1="400" y1="402" x2="400" y2="468" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="4 8"/>
+  <text x="400" y="490" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#94a3b8">сетка</text>
+
+  <g fill="none" stroke="#0f172a" stroke-linecap="round">
+    <path d="M170 372l-20 96M170 372l28 94" stroke-width="10"/>
+    <path d="M170 318v54" stroke-width="12"/>
+    <path d="M170 334l-24 48M170 328l44-52" stroke-width="9"/>
+  </g>
+  <circle cx="170" cy="300" r="16" fill="#0f172a"/>
+
+  <line x1="212" y1="272" x2="226" y2="264" stroke="#0f172a" stroke-width="8"/>
+  <ellipse cx="250" cy="254" rx="21" ry="26" fill="#ffffff" stroke="#ca8a04" stroke-width="6" transform="rotate(28 250 254)"/>
+
+  <circle cx="274" cy="258" r="9" fill="#facc15" stroke="#a16207" stroke-width="2"/>
+  <path d="M288 254Q470 268 690 402" fill="none" stroke="#ca8a04" stroke-width="3" stroke-dasharray="9 8"/>
+  <path d="M690 402l-20 1 1-18z" fill="#ca8a04"/>
+  <ellipse cx="690" cy="424" rx="32" ry="8" fill="none" stroke="#ca8a04" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <path d="M290 286a14 14 0 1 0 10-6" fill="none" stroke="#a16207" stroke-width="2"/>
+  <path d="M300 280l4 9-10 1z" fill="#a16207"/>
+
+  <text x="142" y="520" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#ca8a04">ВИБОРА</text>
+</svg>

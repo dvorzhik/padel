@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Схема чикиты: низкий мягкий удар под ноги игрокам у сетки">
+  <rect width="800" height="560" fill="#f8fafc"/>
+  <circle cx="420" cy="290" r="240" fill="#ffffff" opacity="0.7"/>
+
+  <line x1="50" y1="470" x2="750" y2="470" stroke="#cbd5e1" stroke-width="4"/>
+  <line x1="50" y1="250" x2="50" y2="470" stroke="#0284c7" stroke-width="6" opacity="0.3"/>
+  <line x1="750" y1="250" x2="750" y2="470" stroke="#0284c7" stroke-width="6" opacity="0.3"/>
+  <line x1="400" y1="400" x2="400" y2="470" stroke="#94a3b8" stroke-width="5"/>
+  <line x1="400" y1="402" x2="400" y2="468" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="4 8"/>
+  <text x="400" y="490" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#94a3b8">сетка</text>
+
+  <g fill="none" stroke="#0f172a" stroke-linecap="round">
+    <path d="M180 376l-16 94M180 376l24 92" stroke-width="10"/>
+    <path d="M180 322v54" stroke-width="12"/>
+    <path d="M180 338l-22 50M180 344l54 42" stroke-width="9"/>
+  </g>
+  <circle cx="180" cy="304" r="16" fill="#0f172a"/>
+
+  <line x1="212" y1="382" x2="224" y2="388" stroke="#0f172a" stroke-width="8"/>
+  <ellipse cx="248" cy="396" rx="20" ry="26" fill="#ffffff" stroke="#ca8a04" stroke-width="6" transform="rotate(-16 248 396)"/>
+
+  <circle cx="272" cy="392" r="9" fill="#facc15" stroke="#a16207" stroke-width="2"/>
+  <path d="M286 392Q420 322 612 430" fill="none" stroke="#ca8a04" stroke-width="3" stroke-dasharray="9 8"/>
+  <path d="M612 430l-20-3 5-17z" fill="#ca8a04"/>
+  <ellipse cx="612" cy="452" rx="30" ry="8" fill="none" stroke="#ca8a04" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <g fill="none" stroke="#0f172a" stroke-linecap="round" stroke-width="6" opacity="0.25">
+    <circle cx="600" cy="400" r="12"/>
+    <path d="M600 412v26M600 438l-12 26M600 438l12 26"/>
+  </g>
+
+  <text x="152" y="520" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#ca8a04">ЧИКИТА</text>
+</svg>

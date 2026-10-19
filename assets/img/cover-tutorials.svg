@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Обучающие видео по паделу">
+  <rect width="800" height="800" fill="#f8fafc"/>
+  <circle cx="400" cy="420" r="300" fill="#fef3c7"/>
+
+  <text x="400" y="150" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="7" fill="#ca8a04">ВИДЕОУРОКИ</text>
+
+  <rect x="126" y="232" width="548" height="316" rx="26" fill="#0f172a"/>
+  <g stroke="#334155" stroke-width="3" fill="none">
+    <path d="M126 470h548"/>
+    <path d="M400 310v238" stroke-dasharray="8 8"/>
+    <path d="M232 310v238M568 310v238"/>
+  </g>
+  <circle cx="400" cy="385" r="72" fill="#ca8a04"/>
+  <path d="M383 350l52 35-52 35z" fill="#ffffff"/>
+
+  <circle cx="590" cy="590" r="30" fill="#facc15" stroke="#a16207" stroke-width="4"/>
+  <path d="M568 574c14 12 34 12 48 0" fill="none" stroke="#a16207" stroke-width="3" opacity="0.5"/>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600" fill="#475569">
+    <text x="400" y="620" text-anchor="middle">разбор техники · тактика · упражнения</text>
+  </g>
+</svg>
