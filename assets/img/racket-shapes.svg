@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" role="img" aria-label="Три формы ракеток для падела: круглая, капля и ромб">
+  <rect width="1000" height="640" fill="#ffffff"/>
+  <text x="500" y="46" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="6" fill="#ca8a04">ТРИ ФОРМЫ РАКЕТОК</text>
+  <text x="500" y="80" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" fill="#475569">форма задаёт баланс и размер игрового пятна</text>
+
+  <g transform="translate(170 300)">
+    <rect x="-9" y="100" width="18" height="160" rx="9" fill="#0f172a"/>
+    <ellipse cx="0" cy="-35" rx="88" ry="112" fill="#ffffff" stroke="#ca8a04" stroke-width="9"/>
+    <g fill="#cbd5e1">
+      <circle cx="-48" cy="-95" r="5"/><circle cx="-16" cy="-105" r="5"/><circle cx="16" cy="-105" r="5"/><circle cx="48" cy="-95" r="5"/>
+      <circle cx="-63" cy="-55" r="5"/><circle cx="-31" cy="-65" r="5"/><circle cx="0" cy="-72" r="5"/><circle cx="31" cy="-65" r="5"/><circle cx="63" cy="-55" r="5"/>
+      <circle cx="-48" cy="-15" r="5"/><circle cx="-16" cy="-25" r="5"/><circle cx="16" cy="-25" r="5"/><circle cx="48" cy="-15" r="5"/>
+      <circle cx="-31" cy="22" r="5"/><circle cx="0" cy="15" r="5"/><circle cx="31" cy="22" r="5"/>
+    </g>
+    <circle cx="0" cy="-35" r="52" fill="#fef3c7" fill-opacity="0.55" stroke="#ca8a04" stroke-width="3" stroke-dasharray="7 7"/>
+  </g>
+  <text x="170" y="596" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" fill="#0f172a">КРУГЛАЯ</text>
+  <text x="170" y="624" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">контроль · новичкам</text>
+
+  <g transform="translate(500 300)">
+    <rect x="-9" y="105" width="18" height="155" rx="9" fill="#0f172a"/>
+    <path d="M0 -150C58 -150 88 -112 92 -58C98 22 78 92 0 108C-78 92 -98 22 -92 -58C-88 -112 -58 -150 0 -150Z" fill="#ffffff" stroke="#ca8a04" stroke-width="9"/>
+    <g fill="#cbd5e1">
+      <circle cx="-36" cy="-118" r="5"/><circle cx="0" cy="-126" r="5"/><circle cx="36" cy="-118" r="5"/>
+      <circle cx="-50" cy="-78" r="5"/><circle cx="-18" cy="-88" r="5"/><circle cx="18" cy="-88" r="5"/><circle cx="50" cy="-78" r="5"/>
+      <circle cx="-61" cy="-36" r="5"/><circle cx="-28" cy="-46" r="5"/><circle cx="6" cy="-46" r="5"/><circle cx="40" cy="-36" r="5"/>
+      <circle cx="-50" cy="6" r="5"/><circle cx="-18" cy="-4" r="5"/><circle cx="18" cy="-4" r="5"/><circle cx="50" cy="6" r="5"/>
+      <circle cx="-36" cy="46" r="5"/><circle cx="0" cy="38" r="5"/><circle cx="36" cy="46" r="5"/>
+    </g>
+    <circle cx="0" cy="-38" r="42" fill="#fef3c7" fill-opacity="0.55" stroke="#ca8a04" stroke-width="3" stroke-dasharray="7 7"/>
+  </g>
+  <text x="500" y="596" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" fill="#0f172a">КАПЛЯ</text>
+  <text x="500" y="624" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">универсальность · средний уровень</text>
+
+  <g transform="translate(830 300)">
+    <rect x="-9" y="108" width="18" height="152" rx="9" fill="#0f172a"/>
+    <path d="M0 -158L90 -40L72 86Q0 122 -72 86L-90 -40Z" fill="#ffffff" stroke="#ca8a04" stroke-width="9"/>
+    <g fill="#cbd5e1">
+      <circle cx="0" cy="-122" r="5"/>
+      <circle cx="-30" cy="-88" r="5"/><circle cx="30" cy="-88" r="5"/>
+      <circle cx="-56" cy="-48" r="5"/><circle cx="-22" cy="-58" r="5"/><circle cx="14" cy="-58" r="5"/><circle cx="48" cy="-48" r="5"/>
+      <circle cx="-48" cy="-4" r="5"/><circle cx="-15" cy="-14" r="5"/><circle cx="19" cy="-14" r="5"/><circle cx="52" cy="-4" r="5"/>
+      <circle cx="-34" cy="40" r="5"/><circle cx="0" cy="30" r="5"/><circle cx="34" cy="40" r="5"/>
+    </g>
+    <circle cx="0" cy="-42" r="32" fill="#fef3c7" fill-opacity="0.55" stroke="#ca8a04" stroke-width="3" stroke-dasharray="7 7"/>
+  </g>
+  <text x="830" y="596" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" fill="#0f172a">РОМБ</text>
+  <text x="830" y="624" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">мощность · опытным</text>
+</svg>

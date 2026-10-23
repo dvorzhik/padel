@@ -550,6 +550,14 @@ svg {
   margin-top: 8px;
 }
 
+/* Отступ при переходе по якорям, чтобы заголовок не прятался
+   под липкой шапкой */
+.prose h2,
+.prose h3,
+section[id] {
+  scroll-margin-top: 92px;
+}
+
 .prose h3 {
   margin: 26px 0 8px;
   font-size: 1.1rem;
@@ -652,9 +660,26 @@ svg {
 .table-wrap {
   margin: 20px 0;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
   background: #ffffff;
   border: 1px solid var(--card-border);
   border-radius: var(--radius);
+}
+
+/* Подсказка «таблица прокручивается» — включает скрипт,
+   только если таблица реально шире экрана */
+.table-hint {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: -8px 0 18px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.table-hint[hidden] {
+  display: none;
 }
 
 table {

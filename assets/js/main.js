@@ -4,6 +4,8 @@
       и фиксированная ширина по самой широкой фразе (как на референсе).
    2) Видео-карточки: YouTube-iframe создаётся только по клику,
       чтобы страница не тянула плееры при загрузке.
+   3) Подсказка под таблицами, которые не влезают в экран на мобильных.
+
    ============================================================ */
 
 (function () {
@@ -110,5 +112,33 @@
       frame.appendChild(iframe);
       frame.setAttribute('aria-label', title);
     });
+  });
+
+  /* ---------- 3. Подсказка для прокручиваемых таблиц ---------- */
+
+  var wraps = document.querySelectorAll('.table-wrap');
+
+  Array.prototype.forEach.call(wraps, function (wrap) {
+    var hint = document.createElement('p');
+    hint.className = 'table-hint';
+    hint.innerHTML =
+      '<span aria-hidden="true">\u2192</span> ' +
+      'Таблицу можно прокрутить в сторону';
+    hint.hidden = true;
+    wrap.parentNode.insertBefore(hint, wrap.nextSibling);
+
+    var sync = function () {
+      var scrollable = wrap.scrollWidth - wrap.clientWidth > 4;
+      var atEnd = wrap.scrollLeft + wrap.clientWidth >= wrap.scrollWidth - 4;
+      hint.hidden = !scrollable || atEnd;
+    };
+
+    wrap.addEventListener('scroll', sync, { passive: true });
+    window.addEventListener('resize', sync);
+    window.addEventListener('load', sync);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(sync);
+    }
+    sync();
   });
 })();
