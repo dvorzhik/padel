@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Сравнение мяча для падела и теннисного мяча: размер, масса и высота отскока">
+  <rect width="1000" height="700" fill="#ffffff"/>
+  <text x="500" y="46" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="6" fill="#ca8a04">ПАДЕЛ И ТЕННИС</text>
+  <text x="500" y="80" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" fill="#475569">размер и масса почти совпадают — характер отскока разный</text>
+
+  <line x1="500" y1="120" x2="500" y2="520" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="8 10"/>
+
+  <g>
+    <circle cx="250" cy="300" r="104" fill="#facc15" stroke="#a16207" stroke-width="6"/>
+    <path d="M156 254C200 280 196 322 160 344" fill="none" stroke="#a16207" stroke-width="4"/>
+    <path d="M344 250C302 276 306 320 342 342" fill="none" stroke="#a16207" stroke-width="4"/>
+
+    <line x1="146" y1="300" x2="354" y2="300" stroke="#0f172a" stroke-width="2" stroke-dasharray="6 6"/>
+    <line x1="146" y1="288" x2="146" y2="312" stroke="#0f172a" stroke-width="2"/>
+    <line x1="354" y1="288" x2="354" y2="312" stroke="#0f172a" stroke-width="2"/>
+    <text x="250" y="176" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#475569">≈ 6,4–6,7 см</text>
+
+    <text x="250" y="456" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#0f172a">ПАДЕЛ</text>
+    <text x="250" y="492" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">мягче · ниже отскок · контроль</text>
+    <text x="250" y="520" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">плотный войлок · 56–59 г</text>
+  </g>
+
+  <g>
+    <circle cx="750" cy="300" r="112" fill="#fde047" stroke="#ca8a04" stroke-width="6"/>
+    <path d="M646 250C694 280 690 326 652 350" fill="none" stroke="#ca8a04" stroke-width="4"/>
+    <path d="M854 246C808 276 812 324 850 348" fill="none" stroke="#ca8a04" stroke-width="4"/>
+
+    <line x1="638" y1="300" x2="862" y2="300" stroke="#0f172a" stroke-width="2" stroke-dasharray="6 6"/>
+    <line x1="638" y1="288" x2="638" y2="312" stroke="#0f172a" stroke-width="2"/>
+    <line x1="862" y1="288" x2="862" y2="312" stroke="#0f172a" stroke-width="2"/>
+    <text x="750" y="166" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#475569">≈ 6,5–6,9 см</text>
+
+    <text x="750" y="456" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#0f172a">ТЕННИС</text>
+    <text x="750" y="492" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">жёстче · выше отскок · мощность</text>
+    <text x="750" y="520" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">тот же вес · больше давления</text>
+  </g>
+
+  <line x1="120" y1="574" x2="880" y2="574" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="500" y="616" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a">Главное отличие — давление внутри и жёсткость войлока</text>
+  <text x="500" y="648" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">поэтому мяч для падела летит медленнее, отскакивает ниже и прощает больше ошибок</text>
+</svg>

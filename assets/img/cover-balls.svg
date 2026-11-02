@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Мячи для падела и теннисный мяч">
+  <rect width="800" height="800" fill="#f8fafc"/>
+  <circle cx="400" cy="430" r="300" fill="#fef3c7"/>
+  <circle cx="400" cy="430" r="220" fill="none" stroke="#fde68a" stroke-width="2"/>
+
+  <text x="400" y="118" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="7" fill="#ca8a04">ИНВЕНТАРЬ</text>
+  <text x="400" y="178" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="2" fill="#0f172a">МЯЧИ</text>
+
+  <g>
+    <circle cx="292" cy="512" r="86" fill="#facc15" stroke="#a16207" stroke-width="4"/>
+    <path d="M214 474C252 496 250 534 218 554" fill="none" stroke="#a16207" stroke-width="3"/>
+    <path d="M370 470C334 494 336 532 368 552" fill="none" stroke="#a16207" stroke-width="3"/>
+    <text x="292" y="646" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="3" fill="#0f172a">ПАДЕЛ</text>
+  </g>
+
+  <g>
+    <circle cx="512" cy="532" r="94" fill="#fde047" stroke="#ca8a04" stroke-width="4"/>
+    <path d="M426 484C466 512 462 556 428 576" fill="none" stroke="#ca8a04" stroke-width="3"/>
+    <path d="M598 490C556 518 560 560 596 580" fill="none" stroke="#ca8a04" stroke-width="3"/>
+    <text x="512" y="676" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="3" fill="#0f172a">ТЕННИС</text>
+  </g>
+
+  <text x="400" y="728" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#475569">МЯГЧЕ · МЕДЛЕННЕЕ · НИЖЕ ОТСКОК</text>
+</svg>
